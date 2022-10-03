@@ -25,8 +25,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://localhost:5000",
-      "https://expensetracker76:5000",
-      "https://expensetracker76.herokuapp.com/",
+      "https://expensetracker76.herokuapp.com/"
     ],
     methods: ["POST", "PUT", "GET", "OPTIONS", "HEAD", "DELETE", "PATCH"],
     credentials: true,
