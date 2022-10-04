@@ -3,7 +3,7 @@ const queryClient = new QueryClient();
 
 //CHAGE THIS TO YOUR OWN API
 const AXIOS_URL = process.env.NODE_ENV === "production" 
-? "https://expensetracker76.herokuapp.com//api/"
+? "https://expensemanager75.herokuapp.com//api/"
 : "http://localhost:5000/api/";
 export { AXIOS_URL, queryClient };
  
